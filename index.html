@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calendrier d'avent </title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body> 
+
+    <header> 
+        <div class="title">
+            <h1> Calendrier d'avent Version LSF </h1>
+            <p> Découvre-toi un signe par jour en langue des signes - Theme Noel </p>
+        </div>
+    </header>
+
+
+    <div class="section1"> 
+
+    <section class="liste-date"> 
+        <ul> 
+            <li> 
+                <a class="marqueur" href="#" onclick="ChangeVideo('video/1_Sapin.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur" href="#" onclick="ChangeVideo('video/2_Boule-de-noel.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur" href="#" onclick="ChangeVideo('video/3_Etoile.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/4_Famille.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/5_Cadeaux.mp4')"> + </a>
+            </li>
+
+        </ul> 
+
+        <ul>
+
+            <li> 
+                <a class="marqueur" onclick="ChangeVideo('video/6_Fete.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/7_Guirlande.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur" onclick="ChangeVideo('video/8_Pere-noel.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur" onclick="ChangeVideo('video/9_Bonhomme-de-neige.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/10_Neige.mp4')"> + </a>
+            </li>
+
+        </ul>
+        <ul>
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/11_Renne.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/12_Lutin.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/13_Hiver-froid.mp4')"> + </a>
+            </li>
+
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/14_Feu-cheminee.mp4')"> + </a>
+            </li>
+
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/15_Chocolat.mp4')"> + </a>
+            </li>
+        </ul>
+
+
+        <ul>
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/16_Reveillon-de-noel.mp4')"> + </a>
+            </li>
+
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/17_Bougie.mp4')"> + </a>
+            </li>
+
+
+            <li> 
+                <a class="marqueur" onclick="ChangeVideo('video/18_Traineau.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur" onclick="ChangeVideo('video/19_Maison.mp4')"> + </a>
+            </li>
+
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/20_Rever.mp4')"> + </a>
+            </li>
+
+        </ul>
+        <ul>
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/21_Buche-de-noel.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/22_Bonnet-gants-echarpe.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur"  onclick="ChangeVideo('video/23_Meilleurs-voeux.mp4')"> + </a>
+            </li>
+
+            <li> 
+                <a class="marqueur" onclick="ChangeVideo('video/24_Joyeux-noel_Bonne-annee.mp4')"> + </a>
+            </li>
+
+            
+        </ul>
+    </section>
+
+    <article id="afficher_video">
+        <video id="video" poster="cadeau4.png" width="440px" controls autoplay> 
+        Your browser does not support the video tag.
+        </video>
+    </article>
+
+    </div>
+
+    <footer>
+        <p> &copy; Crééé par Victoria Magallon - Décembre 2021 
+    </footer>
+
+<script type="text/javascript">
+
+    function ChangeVideo(nomvideo)	{
+    document.getElementById("video").src=nomvideo;							
+    }
+</script>
+    
+
+</body>
+</html>
+
